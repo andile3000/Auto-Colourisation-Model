@@ -5,3 +5,24 @@ An autoencoder is an unsupervised learning model that leverages the power of neu
 An autoencoder structure comprises two layers connected through a latent space; in the first layer referred to as an encoder, data is compressed to a latent space by learning the features and ignoring trivial information; while in the second layer, the decoder reconstructs the original input from the lower dimensional representation.  The described layers are illustrated in Figure 1, where the blocks shaded in blue represent the encoder and the blocks shaded in green represent the decoder; the latent space is the connecting layer represented by the white block between the blue and green blocks.
 
 <img src="image_2.png" alt="drawing" width="750"/>
+
+================
+Colorizing: 
+----------------------
+1) Run the training script to generate a model
+```
+./training.py 
+```
+2) Run the testing script to test the model performance
+```
+./testing.py
+```
+3) Full project on Google drive link below.
+```
+https://drive.google.com/drive/folders/10fIwJ6eMmm2mX6tdUKEl-fLcFq7h6NpS?usp=sharing
+```
+
+Project Output:
+------------------------------------
+
+<img src="image_1.png" alt="drawing" width="750"/>
