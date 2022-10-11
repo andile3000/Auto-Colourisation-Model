@@ -1,6 +1,6 @@
 import cv2
 start_time = 0
-end_time = 60
+end_time = 600
 from moviepy.video.io.ffmpeg_tools import ffmpeg_extract_subclip
 ffmpeg_extract_subclip("match.mp4", start_time, end_time, targetname="test.mp4")
 
